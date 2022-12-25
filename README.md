@@ -1,17 +1,10 @@
-# template-rust
-template for Rust projects
+# aws-tree-hash
+A library for calculating AWS tree hashes
 
-## Usage
+## Testing
 
-To use this template for libraries, run the following command:
-```bash
-cargo init --lib
-```
-
-To use this template for binaries, run the following command:
-```bash
-cargo init
-```
+The tree hash for a 7.7 MB file containing only null characters can be obtained by running `just src_other/start`.
+The calculation is performed using the example algorithm provided by Amazon.
 
 ## License
 

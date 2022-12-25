@@ -1,0 +1,4 @@
+start:
+  dd if=/dev/zero of=largefile bs=500k count=15
+  java main.java largefile
+  rm largefile
