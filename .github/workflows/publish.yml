@@ -22,6 +22,10 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
       - name: publish to cargo
         run: cargo publish --token ${CARGO_REGISTRY_TOKEN}
         env:
