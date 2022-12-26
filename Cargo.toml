@@ -3,8 +3,17 @@ name = "aws-tree-hash"
 version = "0.1.0"
 edition = "2021"
 authors = ["Hannes Hochreiner <hannes@hochreiner.net>"]
+description = ""
+repository = "https://github.com/hannes-hochreiner/aws-tree-hash"
+license = "MIT OR Apache-2.0"
+keywords = ["AWS", "tree_hash", "glacier"]
+categories = ["algorithms"]
 publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sha2 = "0.10"
+
+[dev-dependencies]
+hex = "0"
