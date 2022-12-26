@@ -1,6 +1,6 @@
 [package]
 name = "aws-tree-hash"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Hannes Hochreiner <hannes@hochreiner.net>"]
 description = "Calculate the Amazon SHA256 tree hash as described on Checksum Calculation page of the AWS S3 Glacier developer guide."
