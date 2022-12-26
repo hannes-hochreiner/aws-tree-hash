@@ -8,7 +8,6 @@ repository = "https://github.com/hannes-hochreiner/aws-tree-hash"
 license = "MIT OR Apache-2.0"
 keywords = ["AWS", "tree_hash", "glacier"]
 categories = ["algorithms"]
-publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
